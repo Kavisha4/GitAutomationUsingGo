@@ -1,4 +1,6 @@
 # Git Automation Using Go
+<img width="251" alt="image" src="https://github.com/user-attachments/assets/0ba811d0-5616-4b2a-82d1-74167eae084d" />
+
 
 ## Overview
 
@@ -71,6 +73,9 @@ This project includes GitHub Actions workflows for CI/CD automation.
 
 1. Navigate to `.github/workflows/ci.yml` and ensure it is correctly configured.
 2. Push a commit to trigger the workflow:
+
+<img width="1055" alt="image" src="https://github.com/user-attachments/assets/09fbdc54-6d4f-492e-ae7b-e5cabf397c27" />
+
 
 ```sh
 git add .
