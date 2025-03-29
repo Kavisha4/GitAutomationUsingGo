@@ -76,6 +76,8 @@ This project includes GitHub Actions workflows for CI/CD automation.
 
 <img width="1055" alt="image" src="https://github.com/user-attachments/assets/09fbdc54-6d4f-492e-ae7b-e5cabf397c27" />
 
+<img width="1054" alt="image" src="https://github.com/user-attachments/assets/495f0946-4b10-4253-abba-d31f62864da4" />
+
 
 ```sh
 git add .
