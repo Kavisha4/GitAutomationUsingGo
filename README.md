@@ -10,6 +10,9 @@
 - Reduces manual intervention and minimizes errors
 - Improves developer productivity by streamlining Git workflows
 - Can be extended to support additional Git operations
+- Uses Cobra for a structured CLI experience
+- Supports Git features like stash, checkout, and rebase
+- Includes GitHub Actions workflows for CI/CD automation
 
 ## Installation
 
@@ -51,8 +54,31 @@ git push -u origin main
 ### Automate Git Commit and Push
 
 ```sh
-git-auto ~/MyNewRepo "Your commit message"
+git-auto commit "Your commit message"
 ```
+
+### Using Additional Git Features
+
+- **Stash Changes:** `git-auto stash`
+- **Checkout Branch:** `git-auto checkout <branch>`
+- **Rebase Branch:** `git-auto rebase <branch>`
+
+## GitHub Workflows Integration
+
+This project includes GitHub Actions workflows for CI/CD automation.
+
+### **Testing GitHub Workflows**
+
+1. Navigate to `.github/workflows/ci.yml` and ensure it is correctly configured.
+2. Push a commit to trigger the workflow:
+
+```sh
+git add .
+git commit -m "Testing GitHub workflows"
+git push origin main
+```
+
+3. Check the GitHub Actions tab in your repository to monitor the workflow execution.
 
 ## Future Enhancements
 
